@@ -1,0 +1,30 @@
+header{
+    margin: 20px 100px 2px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: self-start;
+    height: 40px;
+    
+}
+.nama{
+    font-size: 30px;
+    color: #FFFFFF;
+}
+.navigasi{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    list-style-type: none;
+    color: #FFFFFF;
+    margin: 0;
+}
+.navigasi li{
+    padding: 2px 8px;
+    text-decoration: none;
+}
+.navigasi li p{
+    font-size: 24px;
+}
