@@ -28,3 +28,51 @@ nav{
 .navigasi li p{
     font-size: 24px;
 }
+.intro{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #4D4D4D;
+}
+.intro img{
+    width: 194.45px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+.tittle{
+    font-family: Recursive, Arial;
+    font-weight: 400;
+    font-style: Italic;
+    font-size: 71px;
+    color: #FF7575;
+    margin-bottom: 20px;
+}
+.tittle-desc{
+    color: #ffffff;
+    font-size: 29px;
+}
+.category{
+    /* margin: 0px 100px; */
+    margin-bottom: 80px;
+}
+.category ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.category ul li p{
+    color: #909090;
+    font-family: Recursive, Arial;
+    font-size: 27px;
+}
+.category ul li img{
+    display: flex;
+    margin-right: 20px;
+    height: 24px;
+    width: 24px;
+}
