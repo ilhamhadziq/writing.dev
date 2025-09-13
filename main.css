@@ -1,7 +1,39 @@
 .card{
-    width: 390px;
-    height: 439px;
     background-color: 
     white;
     border-radius: 22px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding: 20px;
+}
+.thumbnail{
+    width:100%;
+    display: block;
+}
+.video-grid{
+    display: grid;
+    column-gap: 40px;
+    row-gap: 40px;
+    margin: 0px 10px;
+}
+.video-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+}
+.card-tittle{
+    margin-top: 10px;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 19px;
+}
+.card-desc{
+    margin-top: 10px;
+    font-size: 16px;
+}
+.card-info{
+    margin-top: 20px;
+    margin-right: 40%;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
