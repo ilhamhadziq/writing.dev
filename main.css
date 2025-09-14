@@ -3,7 +3,7 @@
     white;
     border-radius: 22px;
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 140px 1fr;
     padding: 20px;
 }
 .thumbnail{
@@ -16,11 +16,7 @@
     row-gap: 40px;
     margin: 0px 10px;
 }
-.video-grid{
-        grid-template-columns: 1fr 1fr 1fr;
-}
 .card-tittle{
-    margin-top: 10px;
     font-weight: 600;
     font-style: SemiBold;
     font-size: 19px;
@@ -31,9 +27,24 @@
 }
 .card-info{
     margin-top: 20px;
-    margin-right: 40%;
+    margin-right: 20%;
     font-size: 16px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+@media (max-width: 800px) {
+    .video-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width: 801px) and (max-width: 1199px){
+    .video-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media (min-width: 1200px) {
+    .video-grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
 }
