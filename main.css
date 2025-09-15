@@ -48,3 +48,17 @@
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
+/* .list{
+    flex: 400px;
+ }   */
+.list ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.list ul li p{
+    color: #909090;
+}
