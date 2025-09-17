@@ -55,9 +55,12 @@
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     
+}
+.list ul li{
+    padding: 6px 12px;
 }
 .list ul li p{
     color: #909090;
