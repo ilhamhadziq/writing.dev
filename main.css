@@ -48,9 +48,9 @@
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
-/* .list{
-    flex: 400px;
- }   */
+.list{
+    margin-top: 40px;
+ }  
 .list ul{
     list-style-type: none;
     display: flex;
