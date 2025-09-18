@@ -4,7 +4,6 @@ footer{
     justify-content: space-between;
     align-items: center;
     margin: 10px 80px 50px;
-    border-top: 1px solid white;
 }
 .footer-nav1,
 .footer-nav2{
@@ -12,6 +11,12 @@ footer{
     justify-content: space-between;
     align-items: center;
     color: white;
+}
+.by, .footer-nav2{
+    padding: 6px 12px;
+    background-color: #4699E0;
+    border-radius: 5px;
+    margin-left: 12px;
 }
 .footer-nav2 img{
     width: 20px;

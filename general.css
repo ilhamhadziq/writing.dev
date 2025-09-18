@@ -5,3 +5,7 @@ body{
 p{
     margin: 0;
 }
+.border{
+    border-bottom: 1px solid #4D4D4D;
+    margin: 0;
+}

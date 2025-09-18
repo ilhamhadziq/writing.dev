@@ -35,7 +35,6 @@ nav{
     justify-content: center;
     align-items: center;
     padding-bottom: 50px;
-    border-bottom: 1px solid #4D4D4D;
 }
 .intro img{
     width: 194.45px;
@@ -63,6 +62,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    cursor: pointer;
 }
 
 .category ul li p{
