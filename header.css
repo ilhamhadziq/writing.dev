@@ -20,6 +20,7 @@ nav{
     list-style-type: none;
     color: #FFFFFF;
     margin: 0;
+    cursor: pointer;
 }
 .navigasi li{
     padding: 2px 8px;
